@@ -1,0 +1,9 @@
+---
+- name: Uninstall Firefox on Windows
+  hosts: windows_servers
+  tasks:
+    - name: Uninstall Firefox
+      win_package:
+        product_id: Mozilla Firefox
+        state: absent
+       

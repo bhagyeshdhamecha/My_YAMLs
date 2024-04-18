@@ -1,0 +1,6 @@
+---
+- name: windows setup module
+  hosts: all
+  tasks:
+    - name: run the setup facts
+      ansible.builtin.setup:

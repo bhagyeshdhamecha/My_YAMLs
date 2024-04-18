@@ -1,0 +1,12 @@
+---
+- name: Download and install Firefox on Windows
+  hosts: windows_servers
+  tasks:
+    - name: Download Firefox installer
+      win_get_url:
+        url: "https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US&attribution_code=c291cmNlPXd3dy5iaW5nLmNvbSZtZWRpdW09cmVmZXJyYWwmY2FtcGFpZ249KG5vdCBzZXQpJmNvbnRlbnQ9KG5vdCBzZXQpJmV4cGVyaW1lbnQ9KG5vdCBzZXQpJnZhcmlhdGlvbj0obm90IHNldCkmdWE9ZmlyZWZveCZjbGllbnRfaWQ9NTAyMDcxNDc4LjE3MTI5MzQxMjkmY2xpZW50X2lkX2dhND01MDIwNzE0NzguMTcxMjkzNDEyOSZzZXNzaW9uX2lkPTQ0OTk2NjQ5NjcmZGxzb3VyY2U9bW96b3Jn&attribution_sig=33806f1e7e17e78600f121b449ae3fe706f6329629ce1d2752e986a0fe2dca6a&_gl=1*frno9j*_ga*NTAyMDcxNDc4LjE3MTI5MzQxMjk.*_ga_MQ7767QQQW*MTcxMjkzNDEyOC4xLjAuMTcxMjkzNDEyOC4wLjAuMA.."
+        dest: "C:\\FirefoxSetup.exe"
+
+    - name: Install Firefox
+      win_command: C:\FirefoxSetup.exe -ms
+

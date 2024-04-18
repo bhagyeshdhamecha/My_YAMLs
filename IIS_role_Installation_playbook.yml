@@ -1,0 +1,8 @@
+---
+- name: Install windows feature
+  hosts: all
+  tasks:
+    - name: installation of IIS role
+      win_feature:
+        name: web-Server
+        state: absent

@@ -1,0 +1,12 @@
+---
+- name: Copy file from remote Windows system
+  hosts: windows_servers
+  gather_facts: no
+
+  tasks:
+    - name: Copy file from remote system
+      win_copy:
+        src: "\\\\172.31.2.169\\Shares\\Cert_setup\\EclpEncryption.pfx"  # Path to the source file on the remote Windows system
+        dest: "C:\\EclpEncryption.pfx"  # Path to the destination file on the Ansible control node
+        remote_src: yes
+

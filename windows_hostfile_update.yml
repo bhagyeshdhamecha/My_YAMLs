@@ -1,0 +1,9 @@
+---
+- name: update hosts file on windows server
+  hosts: windows_servers
+  tasks:
+    - name: to add host entry
+      win_lineinfile:
+        path: C:\Windows\System32\drivers\etc\hosts
+        line: "192.168.1.100 home.allscripts.com"
+        state: absent

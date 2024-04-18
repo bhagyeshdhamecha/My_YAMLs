@@ -1,0 +1,7 @@
+---
+- name: Check Windows node connection
+  hosts: windows_servers
+  tasks:
+    - name: Test connection
+      win_ping:
+

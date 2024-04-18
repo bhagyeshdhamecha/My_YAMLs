@@ -1,0 +1,14 @@
+---
+- name: Windows Server Patch
+  hosts: windows_servers
+  gather_facts: no
+  tasks:
+    - name: Install Windows updates
+      win_updates:
+        category_names: "SecurityUpdates,CriticalUpdates"
+        state: installed
+      register: update_result
+
+    - name: Reboot if updates were installed
+      win_reboot:
+      when: update_result.reboot_required

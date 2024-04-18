@@ -1,0 +1,24 @@
+---
+- name: Create local group
+  hosts: windows_servers
+  tasks:
+
+
+    - name: Create Bhagyesh user
+      ansible.windows.win_user:
+        name: Bhagyesh
+        password: "Allscripts$123"
+        state: present
+
+    - name: Create local group mylocaladmin
+      ansible.windows.win_group:
+        name: Test_Group_Admin
+        state: present
+        description: this is for test local group admin
+
+
+    - name: add Bhagyesh user to group Test_Group_Admin
+      ansible.windows.win_group:
+        name: Test_Group_Admin
+        members: Bhagyesh
+        state: present
