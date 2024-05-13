@@ -14,12 +14,12 @@
 ~Msle0~/\<ip\>
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1715625434,,"q!"
 :wq!
 |2,0,1715609658,,"wq!"
 :wq~
 |2,0,1715609649,,"wq~"
-:q!
-|2,0,1715606891,,"q!"
 :q1
 |2,0,1715350602,,"q1"
 :w!
@@ -72,36 +72,54 @@
 |3,1,36,0,1,0,1715608586,"e"
 
 # File marks:
-'0  12  45  ~/windows_sql_SSMS_Install.yml
-|4,48,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
-'1  12  48  ~/windows_sql_SSMS_Install.yml
-|4,49,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
-'2  1  0  ~/windows_sql_SSMS_Install.yml
-|4,50,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
-'3  1  0  ~/windows_sql_SSMS_Install.yml
-|4,51,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'0  18  16  ~/windows_scm_gateway_installation.yml
+|4,48,18,16,1715625434,"~/windows_scm_gateway_installation.yml"
+'1  7  20  ~/windows_sql_SSMS_Install.yml
+|4,49,7,20,1715610790,"~/windows_sql_SSMS_Install.yml"
+'2  12  45  ~/windows_sql_SSMS_Install.yml
+|4,50,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
+'3  12  48  ~/windows_sql_SSMS_Install.yml
+|4,51,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
 '4  1  0  ~/windows_sql_SSMS_Install.yml
 |4,52,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
 '5  1  0  ~/windows_sql_SSMS_Install.yml
 |4,53,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
-'6  8  12  ~/windows_sql_SSMS_Install.yml
-|4,54,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
-'7  8  12  ~/windows_sql_SSMS_Install.yml
-|4,55,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+'6  1  0  ~/windows_sql_SSMS_Install.yml
+|4,54,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'7  1  0  ~/windows_sql_SSMS_Install.yml
+|4,55,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
 '8  8  12  ~/windows_sql_SSMS_Install.yml
 |4,56,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
 '9  8  12  ~/windows_sql_SSMS_Install.yml
 |4,57,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
 
 # Jumplist (newest first):
+-'  18  16  ~/windows_scm_gateway_installation.yml
+|4,39,18,16,1715625434,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715625384,"~/windows_scm_gateway_installation.yml"
+-'  7  20  ~/windows_sql_SSMS_Install.yml
+|4,39,7,20,1715610790,"~/windows_sql_SSMS_Install.yml"
+-'  7  20  ~/windows_sql_SSMS_Install.yml
+|4,39,7,20,1715610790,"~/windows_sql_SSMS_Install.yml"
 -'  12  45  ~/windows_sql_SSMS_Install.yml
 |4,39,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
+-'  12  45  ~/windows_sql_SSMS_Install.yml
+|4,39,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
+-'  12  48  ~/windows_sql_SSMS_Install.yml
+|4,39,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
 -'  12  48  ~/windows_sql_SSMS_Install.yml
 |4,39,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
 -'  1  0  ~/windows_sql_SSMS_Install.yml
 |4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
 -'  1  0  ~/windows_sql_SSMS_Install.yml
 |4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
 -'  1  0  ~/windows_sql_SSMS_Install.yml
 |4,39,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
 -'  8  12  ~/windows_sql_SSMS_Install.yml
@@ -110,6 +128,18 @@
 |4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
 -'  8  12  ~/windows_sql_SSMS_Install.yml
 |4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
 -'  17  0  ~/windows_sql_SSMS_Install.yml
 |4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
 -'  17  0  ~/windows_sql_SSMS_Install.yml
@@ -119,6 +149,10 @@
 -'  17  0  ~/windows_sql_SSMS_Install.yml
 |4,39,17,0,1715608467,"~/windows_sql_SSMS_Install.yml"
 -'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608467,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608460,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
 |4,39,17,0,1715608460,"~/windows_sql_SSMS_Install.yml"
 -'  1  0  ~/windows_sql_SSMS_Install.yml
 |4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
@@ -126,6 +160,12 @@
 |4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
 -'  1  0  ~/windows_sql_SSMS_Install.yml
 |4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
 -'  7  0  ~/windows_sql_SSMS_Install.yml
 |4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
 -'  7  0  ~/windows_sql_SSMS_Install.yml
@@ -136,6 +176,26 @@
 |4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
 -'  7  0  ~/windows_sql_SSMS_Install.yml
 |4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
 -'  11  0  ~/windows_sql_SSMS_Install.yml
 |4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
 -'  11  0  ~/windows_sql_SSMS_Install.yml
@@ -184,108 +244,48 @@
 |4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
 -'  18  70  ~/windows_sql_SSMS_Install.yml
 |4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
--'  69  58  ~/windows_scm_gateway_installation.yml
-|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  19  70  ~/windows_sql_SSMS_Install.yml
+|4,39,19,70,1715607009,"~/windows_sql_SSMS_Install.yml"
+-'  19  70  ~/windows_sql_SSMS_Install.yml
+|4,39,19,70,1715607009,"~/windows_sql_SSMS_Install.yml"
 -'  69  58  ~/windows_scm_gateway_installation.yml
 |4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
 -'  69  58  ~/windows_scm_gateway_installation.yml
@@ -297,33 +297,10 @@
 
 # History of marks within files (newest to oldest):
 
-> ~/windows_sql_SSMS_Install.yml
-	*	1715609656	0
-	"	12	45
-	^	12	46
-	.	12	47
-	+	1	96
-	+	1	0
-	+	1	23
-	+	1	2
-	+	1	4
-	+	1	5
-	+	1	20
-	+	1	0
-	+	1	3
-	+	1	402
-	+	1	163
-	+	15	0
-	+	12	72
-	+	8	42
-	+	2	0
-	+	11	14
-	+	12	47
-
 > ~/windows_scm_gateway_installation.yml
-	*	1715606889	0
-	"	69	58
-	^	69	59
+	*	1715625433	0
+	"	18	16
+	^	18	17
 	.	70	0
 	+	1	76
 	+	1	11
@@ -396,6 +373,19 @@
 	+	69	60
 	+	70	0
 	p	56	32
+
+> ~/windows_sql_SSMS_Install.yml
+	*	1715607019	0
+	"	7	20
+	^	19	71
+	.	7	19
+	+	19	72
+	+	13	0
+	+	10	23
+	+	7	4
+	+	9	22
+	+	11	0
+	+	7	19
 
 > ~/windows_scm_gateway_uninstallation1.yml
 	*	1715366621	0

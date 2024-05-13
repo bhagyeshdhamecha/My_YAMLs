@@ -1,42 +1,3 @@
-ls
-vi hosts.ini
-rm hosts.ini 
-sudo rm hosts.ini 
-ls
-sudo vi inventory.yaml
-cd
-clear
-vi check_win_connection.yml 
-ansible-playbook  -i /etc/ansible/inventory.yaml check_win_connection.yml 
-cd /etc/ansible/
-ls
-sudo rm inventory.yaml 
-ls
-sudo vi windows_hosts.ini
-ls
-cd
-ls
-vi check_win_connection.yml 
-rm check_win_connection.yml 
-ls
-rm install_httpd.yml 
-ls
-clear
-cd /etc/ansible/
-ls
-ansible-playbook -i windows_hosts.ini
-clear
-cd
-clear
-vi check_win_connection.yml
-vi /etc/ansible/windows_hosts.ini
-vi check_win_connection.yml 
-cd /etc/ansible/
-ls
-cd
-clear
-ansible-playbook -i windows_hosts.ini check_win_connection.yml
-ansible-playbook -i /etc/ansible/windows_hosts.ini check_win_connection.yml
 vi win_security_critical_updates_install
 ansible-playbook -i windows_hosts.ini win_security_critical_updates_install
 clear
@@ -998,3 +959,42 @@ ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation1.y
 ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -vvv
 init 6
 init-06
+cd
+clear
+ls
+vi windows_sql_SSMS_Install.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_scm_gateway_installation.yml 
+vi windows_sql_SSMS_Install.yml
+cd
+clear
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml -vvv --limit 172.31.3.27
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_sql_SSMS_Install.yml 
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+clear
+vi windows_sql_SSMS_Install.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_sql_SSMS_Install.yml --limit 172.31.3.27
+vi windows_sql_SSMS_Install.yml
+clear
+ls
+git status
+git add .
+git commit -m "May month commit"
+git status
+git push origin 
+git status
+git status
+clear
+ls
+ll
+ansible-playbook -i /etc/ansible/hosts.ini setup_module.yml
+ansible-playbook -i /etc/ansible/hosts.ini setup_module.yml --check
