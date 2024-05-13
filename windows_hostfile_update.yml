@@ -5,5 +5,5 @@
     - name: to add host entry
       win_lineinfile:
         path: C:\Windows\System32\drivers\etc\hosts
-        line: "192.168.1.100 home.allscripts.com"
-        state: absent
+        line: "172.31.2.169  hosting"
+        state: present

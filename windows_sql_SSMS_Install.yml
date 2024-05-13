@@ -1,0 +1,15 @@
+---
+- name: Install SQL Server Management Studio
+  hosts: windows_servers
+  gather_facts: no
+  tasks:
+    - name: Download SSMS installer
+      win_get_url:
+        url: "https://aka.ms/ssmsfullsetup"
+        dest: C:\temp\SSMS-Setup-ENU.exe
+
+    - name: uninstall SSMS
+      win_command: C:\temp\SSMS-Setup-ENU.exe /install /quiet /norestart
+
+
+

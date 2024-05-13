@@ -4,5 +4,14 @@
   tasks:
     - name: installation of IIS role
       win_feature:
-        name: web-Server
-        state: absent
+        name:
+         - Web-Server
+         - web-Common-Http
+        include_sub_features: true
+        include_management_tools: true
+        state: present
+
+ 
+    - name: Reboot if installing Web-Server feature requires it
+      ansible.windows.win_reboot:
+      when: win_feature.reboot_required

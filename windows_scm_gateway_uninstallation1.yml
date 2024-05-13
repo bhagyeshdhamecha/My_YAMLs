@@ -1,0 +1,56 @@
+---
+- name: Unnstall gateway application
+  hosts: all
+  vars:
+    zip_url: "https://hosting:8080/AllscriptsGateway.zip"
+    install_dir: "C:\\Application"
+    temp_dir: "C:\\Temp"  
+  tasks:
+    - name: Create temp directory
+      win_file:
+        path: "{{ temp_dir }}"
+        state: directory
+
+    - name: Download ZIP file
+      win_get_url:
+        url: "{{ zip_url }}"
+        dest: "{{ temp_dir }}\\AllscriptsGateway.zip"
+        force: yes
+        validate_certs: no
+
+    - name: wait for 10 seconds
+      pause:
+        seconds: 10
+
+    - name: Unzip application
+      win_unzip:
+        src: "{{ temp_dir }}\\AllscriptsGateway.zip"
+        dest: "{{ temp_dir }}"
+
+
+    - name: wait for 5 seconds
+      pause:
+        seconds: 5
+
+
+    - name: Install Message Queuing feature
+      win_feature:
+        name: MSMQ
+        state: present
+        all_subfeatures: yes
+
+    - name: wait for 10 seconds
+      pause:
+        seconds: 10
+
+    - name: Create installation directory
+      win_file:
+        path: "{{ install_dir }}"
+        state: directory    
+          
+    - name: wait for 5 seconds
+      pause:
+        seconds: 5 
+
+    - name: Execute msiexec command for GatewayApp Uninstallation
+      win_shell: msiexec /uninstall "C:\Temp\AllscriptsGateway\Allscripts Gateway 22.1 (3394).msi" ALLUSERS=1 /qb /quiet /l* "C:\Temp\AllscriptsGateway\Gateway_Uninstallation.log"

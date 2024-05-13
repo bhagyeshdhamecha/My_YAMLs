@@ -1,251 +1,3 @@
-exit
-clear
-yum install tree -y
-sudo yum install tree -y
-sudo su - 
-exit
-clear
-sudo yum install tree -y
-yum install httpd -y
-sudo yum install httpd -y
-vi sshd
-vi etc/sshd
-ssh ansadmin@ip-172-31-3-131
-clear
-exit
-cd
-clear
-ssh ansadmin@ip-172-31-3-131 
-exit
-clear
-ssh -keygen
-ssh-keygen
-cd
-ls
- cd .ssh/
-ls
-cat id_rsa.pub 
-clear
-ssh ansadmin@ip-172-31-3-131 
-clear
-exit
-cd
-clear
-ls
-clear
-ssh-keygen
-clear
-cd .ssh/
-ls
-ls -la
-cd
-ls
-ls -la
-cd .ssh/
-ls
-clear
-ls
-cat id_rsa.pub 
-ssh-copy-id ansadmin@ip-172-31-3-131
-ls
-clear
-ssh ansadmin@ip-172-31-3-131
-clear
-vi hostname
-cd
-clear
-vi hostname
-clear
-vi hostname 
-q!
-clear
-vi /etc/hostname 
-cat /etc/hostname 
-sudo hostname ansibleMaster
-ls 
-cat hostname 
-sudo vi /etc/hostname 
-ls 
-exit
-ssh ansadmin@ip-172-31-3-131
-clear
-cd
-clear
-vi /etc/ssh/sshd_config
-sudo vi /etc/ssh/sshd_config
-clear
-sudo vi /etc/ssh/sshd_config
-clear
-service sshd restart
-service sshd reload
-sudo service sshd reload
-clear
-ssh ansadmin@ip-172-31-3-131
-ls 
-ls
-su ansadmin
-clear
-sudo su -
-exit
-cd
-clear
-sudo mkdir /etc/ansible
-ls
- cd /etc
-ls 
-cd ansible/
-ls 
-vi hosts
-sudo vi hosts
-cat hosts 
-clear
-vi hosts 
-sudo vi hosts
-cat hosts 
-cd
-clear
-ansible all -m ping
-cd /etc/
-ls 
-cd ansible/
-clear
-sudo vi ansible.cfg
-cd
-clear
-ansible all -m ping
-clear
-ansible all -m ping
-clear
-ansadmin webserver -m ping
-ansadmin webservers -m ping
-cd /etc/ansible/
-ls 
-cat hosts 
-cd
-ansible webservers -m ping
-ansible all --list-hosts
-clea
-clear
-ansible all --list-hosts
-clear
-ansible webservers --list-hosts
-ansible webservers[0] --list-hosts
-clear
-clear
-ssh ansadmin@ansNode1
-clear
-ssh ansadmin@ansNode1
-clear
-sudo ssh ansadmin@ansNode1
-clear
-ifconfif
-ifconfig
-ssh 172.31.3.131
-clear
-ssh ansNode1.ap-south-1.compute.internal
-clear
-exit
-clear
-cd
-clear
-ls
-ansible-playbook install_httpd.yml 
-vi install_httpd.yml 
-cat install_httpd.yml
-sudo cat install_httpd.yml
-ls 
-rm-rf install_httpd.yml~  sudo
-ls
-sudo vi install_httpd.yml
-clear
-ls
-rm hostname 
-ls
-rm install_httpd.yml~
-ls
-cat sudo 
-rm sudo 
-ls
-clear
-ls
-sudo vi install_httpd.yml 
-ls 
-clear
-ansible-playbook install_httpd.yml 
-sudo cat /etc/ansible/hosts 
-sudo vi install_httpd.yml
-cat install_httpd.yml 
-clear
-ansible-playbook install_httpd.yml
-sudo vi install_httpd.yml 
-ansible-playbook install_httpd.yml
-sudo vi install_httpd.yml 
-ansible-playbook install_httpd.yml
-sudo vi install_httpd.yml 
-ansible-playbook install_httpd.yml
-sudo vi install_httpd.yml 
-ansible-playbook install_httpd.yml
-cat install_httpd.yml 
-sudo vi install_httpd.yml 
-ansible-playbook install_httpd.yml
-clear
-ssh ansadmin@ansNode1
-ifconfig
-ssh ip-172-31-3-131.ap-south-1.compute.internal
-clear
-clear
-ansible all -m ping
-cat /etc/ansible/hosts 
-ansible webservers] --list-hosts
-clear
-ansible webservers -m command -a "hostname -i"
-ansible webservers -m command -a "yum install httpd -y"
-ansible webservers -m command -a "yum install httpd -y"
-ansible webservers -m command -a "sudo yum install httpd -y"
-clear
-ls 
-ll 
-sudo ls
-clear
-vi install_httpd.yml
-sudo vi install_httpd.yml
-ls
-sudo ls
-ls 
-sudo su 
-clear
-cd
-ls
-cat /etc/ansible/hosts 
-sudo vi check_win_connection.yml
-vi check_win_connection.yml
-ls
-ansible-playbook check_win_connection.yml
-vi check_win_connection.yml 
-ansible-playbook check_win_connection.yml
-ansible-playbook -i windows check_win_connection.yml
-win_ping
-vi check_win_connection.yml
-ansible-playbook -i windows check_win_connection.yml
-cd /etc/ansible/
-ls
-copy hosts host.yml
-sudo copy hosts host.yml
-cp hosts hosts.yml
-sudo cp hosts hosts.yml
-l s
-ls 
-rm hosts
-sudo rm hosts
-ls
-cd
-clear
-ansible-playbook -i windows check_win_connection.yml
-ls
-cd /etc/ansible/
-ls
-sudo cp hosts.yml hosts.ini
-sudo rm hosts.yml 
 ls
 vi hosts.ini
 rm hosts.ini 
@@ -885,3 +637,364 @@ ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Import_PFX_Certificate_R3
 ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
 sudo vi /etc/ansible/hosts.ini 
 ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+clear
+cd
+clear
+ls
+vi Windows_SCM_Import_PFX_Certificate.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_patch_deployment.yml
+clear
+cat /etc/ansible/hosts.ini 
+clear
+ls
+git init
+yum install git -y
+sudo yum install git -y
+clear
+ls 
+sudo yum install tree -y
+clear
+git init
+ls 
+git status
+git add.
+git add .
+ls 
+git status
+git commit -n "my YAML"
+git commit -m "my YAML"
+git config --global user.email "dhamecha@live.com"
+git config --global user.name "Bhagyesh"
+git commit -m "myYAMLs"
+git status
+git add .
+ls
+git status
+git commit -m "myYAMLs"
+git status 
+git remote add origin https://github.com/bhagyeshdhamecha/My_YAMLs.git
+git branch -M main
+git remote add origin https://github.com/bhagyeshdhamecha/My_YAMLs.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote set-url origin
+git origin
+git remote add origin https://github.com/bhagyeshdhamecha/My_YAMLs.git
+bhagyesh.dhamecha@allscripts.com
+git remote add origin https://github.com/bhagyeshdhamecha/My_YAMLs.git
+git push -u origin main
+clear
+clear
+clear
+ls
+vi /etc/ansible/hosts.ini
+exit
+cd
+clear
+ls
+ll
+clear
+ls
+clear
+cd
+clear
+ls
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+yum install ftp -y
+yum install ftpd -y
+clear
+vi Install_AllscriptsGateway.yml
+cd
+clear
+ls
+vi firefox_installation.yml
+vi uninstall_firefox.yml 
+cat /etc/ansible/hosts.ini 
+ls
+vi windows_SCM_Gateway_Installation.yml
+clear
+cat /etc/ansible/hosts.ini 
+cd
+clear
+l
+sls
+clear
+ls
+vi Windows_SCM_Gateway_Installation.yml
+ls
+ll
+clear
+ls
+ll
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+clear
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+vi Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml -l ip-172-31-3-27.ap-south-1.compute.internal
+An exception occurred during task execution. To see the full traceback, use -vvv. The error was:    at Microsoft.PowerShell.Commands.FileSystemProvider.ItemExists(String path, ErrorRecord& error)
+fatal: [ip-172-31-3-27.ap-south-1.compute.internal]: FAILED! => {"changed": false, "dest": "C:\\Installer\\Allscripts\\", "msg": "Unhandled exception while executing module: Access is denied", "src": "\\\\172.31.2.169\\Shares\\AllscriptsGateway"}
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml -l ip-172-31-3-27.ap-south-1.compute.internal -vvv
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml -l ip-172-31-3-27.ap-south-1.compute.internal ---
+ansible-playbook -i /etc/ansible/hosts.ini Windows_SCM_Gateway_Installation.yml -l ip-172-31-3-27.ap-south-1.compute.internal -vvv
+cd
+vi IIS_role_Installation_playbook.yml
+cd
+clear
+cat /etc/ansible/hosts.ini 
+clear
+ls
+ll
+cp Windows_SCM_Gateway_Installation.yml windows_scm_gateway_installation.yml
+rm Windows_SCM_Gateway_Installation.yml
+ls
+clear
+vi windows_scm_gateway_installation.yml
+clear
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi /etc/ansible/hosts.ini
+sudo vi /etc/ansible/hosts.ini
+ls
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+
+sudo vi /etc/ansible/hosts.ini
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -vvv
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27 -vvv
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27 -vvv
+vi IIS_role_Installation_playbook.yml
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27 -vvv
+vi IIS_role_Installation_playbook.yml
+vi IIS_role_Installation_playbook.yml
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.3.27 -vvv
+ansible-playbook -i /etc/ansible/hosts.ini IIS_role_Installation_playbook.yml --limit=172.31.2.169 -vvv
+cd
+ls
+cat check_win_connection.yml 
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml 
+cat check_win_connection.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml 
+clear
+l
+clear
+ls
+cat windows_scm_gateway_installation.yml 
+cat Windows_SCM_Import_PFX_Certificate
+cat IIS_role_Installation_playbook.yml 
+vi windows_scm_gateway_installation.yml 
+ls
+vi windows_scm_gateway_installation.yml
+clear
+ls
+clear
+ll
+rm \{changed\: 
+ls
+clear
+ll
+vi windows_scm_gateway_installation.yml
+cat windows_scm_gateway_installation.yml 
+clear
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+clear
+l
+ls
+cat firefox_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini firefox_installation.yml -check
+clear
+ansible-playbook -i /etc/ansible/hosts.ini firefox_installation.yml -vvv
+ls
+clear
+cd
+ll
+clear
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini firefox_installation.yml -vvv
+clear
+cat windows_scm_gateway_installation.yml
+clear
+cd
+ls
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+vi windows_hostfile_update.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_hostfile_update.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_hostfile_update.yml
+vi windows_hostfile_update.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_hostfile_update.yml
+clear
+clear
+ls
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --limit 172.31.2.169
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+sudo vi /etc/ansible/hosts.ini
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -vvv
+sudo vi /etc/ansible/hosts.ini
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -vvv
+vi windows_scm_gateway_installation.yml
+cat windows_scm_gateway_installation.yml 
+clear
+ll
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+cat windows_scm_gateway_installation.yml 
+ls
+clear
+ll
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml 
+vi windows_scm_gateway_installation.yml 
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+vi  windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml
+vi  windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -limit 172.31.2.169
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml --limit 172.31.2.169
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml --limit 172.31.2.169
+vi windows_scm_gateway_installation.yml
+cd
+clear
+clear
+ls
+vi windows_scm_gateway_installation.yml
+cat windows_scm_gateway_installation.yml 
+lear
+clear
+ls
+cp windows_scm_gateway_installation.yml windows_scm_gateway_uninstallation.yml
+ls
+vi windows_scm_gateway_uninstallation.yml
+vi windows_scm_gateway_uninstallation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation.yml 
+clear
+ls
+vi windows_scm_gateway_uninstallation1.yml 
+cat windows_scm_gateway_uninstallation1.yml 
+clear
+cd
+ls
+vi windows_scm_gateway_installation.yml 
+cp windows_scm_gateway_installation.yml windows_scm_gateway_uninstallation1.yml
+vi windows_scm_gateway_uninstallation.yml
+clear
+ls
+vi windows_scm_gateway_uninstallation.yml
+rm windows_scm_gateway_uninstallation.yml 
+clear
+ls
+vi windows_scm_gateway_uninstallation1.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -limit 172.31.2.169
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --limit 172.31.2.169
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation1.yml --limit 172.31.2.169
+cd
+ls
+vi windows_scm_gateway_installation.yml
+cd
+clear
+ls
+ansible-playbook -i /etc/ansible/hosts.ini check_win_connection.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+ls
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation1.yml --limit 172.31.2.169
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml
+vi windows_scm_gateway_installation.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --lll
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --check
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --vv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml ---vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml --lll
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_installation.yml -vvv
+vi windows_scm_gateway_installation.yml
+ansible-playbook -i /etc/ansible/hosts.ini  windows_scm_gateway_uninstallation.yml -vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation1.yml -vvv
+vi windows_scm_gateway_uninstallation1.yml 
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_uninstallation1.yml -vvv
+ansible-playbook -i /etc/ansible/hosts.ini windows_scm_gateway_installation.yml -vvv
+init 6
+init-06

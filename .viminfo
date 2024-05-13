@@ -14,14 +14,18 @@
 ~Msle0~/\<ip\>
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1713444621,,"q!"
 :wq!
-|2,0,1712941428,,"wq!"
+|2,0,1715609658,,"wq!"
+:wq~
+|2,0,1715609649,,"wq~"
+:q!
+|2,0,1715606891,,"q!"
+:q1
+|2,0,1715350602,,"q1"
+:w!
+|2,0,1714138037,,"w!"
 :wq
 |2,0,1712933761,,"wq"
-:w!
-|2,0,1712932998,,"w!"
 :wq! sudo
 |2,0,1712326833,,"wq! sudo"
 
@@ -36,262 +40,490 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	---
-|3,1,1,1,1,0,1712941037,"---"
+|3,0,1,1,1,0,1715608451,"---"
 "2	LINE	0
-	- name: Copy file from remote Windows system
-|3,0,2,1,1,0,1712941037,"- name: Copy file from remote Windows system"
+	- name: Install SQL Server Management Studio
+|3,0,2,1,1,0,1715608451,"- name: Install SQL Server Management Studio"
 "3	LINE	0
-	  hosts: windows_servers
-|3,0,3,1,1,0,1712941037,"  hosts: windows_servers"
+	
+|3,0,3,1,1,0,1715608451,""
 "4	LINE	0
 	  gather_facts: no
-|3,0,4,1,1,0,1712941037,"  gather_facts: no"
+|3,0,4,1,1,0,1715608451,"  gather_facts: no"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1712941037,""
+|3,0,5,1,1,0,1715608451,""
 "6	LINE	0
 	  tasks:
-|3,0,6,1,1,0,1712941037,"  tasks:"
+|3,0,6,1,1,0,1715608451,"  tasks:"
 "7	LINE	0
-	    - name: Copy file from remote system
-|3,0,7,1,1,0,1712941037,"    - name: Copy file from remote system"
+	DC00-419E-9704-06DD46E5F81D/SSMS-Setup-ENU.exe"
+|3,0,7,1,1,0,1715608451,"DC00-419E-9704-06DD46E5F81D/SSMS-Setup-ENU.exe\""
 "8	LINE	0
-	      win_copy:
-|3,0,8,1,1,0,1712941037,"      win_copy:"
+	        dest: C:\temp\SSMS-Setup-ENU.exe
+|3,0,8,1,1,0,1715608450,"        dest: C:\\temp\\SSMS-Setup-ENU.exe"
 "9	LINE	0
-	        src: "\\172.31.2.169\Shares\Cert_setup\EclpEncryption.pfx"  # Path to the source file on the remote Windows system
-|3,0,9,1,1,0,1712941037,"        src: \"\\\\172.31.2.169\\Shares\\Cert_setup\\EclpEncryption.pfx\"  # Path to the source file on the remote Windows system"
-"-	CHAR	0
-	c
-|3,0,36,0,1,0,1712939471,"c"
+	
+|3,0,9,1,1,0,1715608450,""
+""-	CHAR	0
+	e
+|3,1,36,0,1,0,1715608586,"e"
 
 # File marks:
-'0  11  28  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,48,11,28,1713444621,"~/Windows_SCM_Import_PFX_Certificate.yml"
-'1  11  0  ~/Windows_SCM_Import_PFX_Certificate_R2.yml
-|4,49,11,0,1712948296,"~/Windows_SCM_Import_PFX_Certificate_R2.yml"
-'2  3  0  /etc/ansible/hosts.ini
-|4,50,3,0,1712941435,"/etc/ansible/hosts.ini"
-'3  11  22  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,51,11,22,1712941143,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'4  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,52,12,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'5  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,53,11,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'6  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,54,1,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'7  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,55,12,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'8  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,56,1,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
-'9  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,57,11,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
+'0  12  45  ~/windows_sql_SSMS_Install.yml
+|4,48,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
+'1  12  48  ~/windows_sql_SSMS_Install.yml
+|4,49,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
+'2  1  0  ~/windows_sql_SSMS_Install.yml
+|4,50,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'3  1  0  ~/windows_sql_SSMS_Install.yml
+|4,51,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'4  1  0  ~/windows_sql_SSMS_Install.yml
+|4,52,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'5  1  0  ~/windows_sql_SSMS_Install.yml
+|4,53,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+'6  8  12  ~/windows_sql_SSMS_Install.yml
+|4,54,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+'7  8  12  ~/windows_sql_SSMS_Install.yml
+|4,55,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+'8  8  12  ~/windows_sql_SSMS_Install.yml
+|4,56,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+'9  8  12  ~/windows_sql_SSMS_Install.yml
+|4,57,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
 
 # Jumplist (newest first):
--'  11  28  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,28,1713444621,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R2.yml
-|4,39,11,0,1712948296,"~/Windows_SCM_Import_PFX_Certificate_R2.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R2.yml
-|4,39,11,0,1712948296,"~/Windows_SCM_Import_PFX_Certificate_R2.yml"
--'  3  0  /etc/ansible/hosts.ini
-|4,39,3,0,1712941435,"/etc/ansible/hosts.ini"
--'  3  0  /etc/ansible/hosts.ini
-|4,39,3,0,1712941435,"/etc/ansible/hosts.ini"
--'  2  0  /etc/ansible/hosts.ini
-|4,39,2,0,1712941416,"/etc/ansible/hosts.ini"
--'  2  0  /etc/ansible/hosts.ini
-|4,39,2,0,1712941416,"/etc/ansible/hosts.ini"
--'  11  22  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,22,1712941143,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  22  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,22,1712941143,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  22  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,22,1712941143,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  22  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,22,1712941143,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,12,0,1712941105,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,12,0,1712941105,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,12,0,1712941105,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  12  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,12,0,1712941105,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712941051,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712941034,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940994,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940906,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940906,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940906,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,11,0,1712940906,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,17,1712940852,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  10  17  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,10,17,1712940803,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712940583,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712940583,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712940583,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  1  0  ~/Windows_SCM_Import_PFX_Certificate_R3.yml
-|4,39,1,0,1712940583,"~/Windows_SCM_Import_PFX_Certificate_R3.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
--'  11  29  ~/Windows_SCM_Import_PFX_Certificate.yml
-|4,39,11,29,1712940454,"~/Windows_SCM_Import_PFX_Certificate.yml"
+-'  12  45  ~/windows_sql_SSMS_Install.yml
+|4,39,12,45,1715609658,"~/windows_sql_SSMS_Install.yml"
+-'  12  48  ~/windows_sql_SSMS_Install.yml
+|4,39,12,48,1715609449,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715609421,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608939,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  8  12  ~/windows_sql_SSMS_Install.yml
+|4,39,8,12,1715608638,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608570,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608467,"~/windows_sql_SSMS_Install.yml"
+-'  17  0  ~/windows_sql_SSMS_Install.yml
+|4,39,17,0,1715608460,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  1  0  ~/windows_sql_SSMS_Install.yml
+|4,39,1,0,1715608412,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  7  0  ~/windows_sql_SSMS_Install.yml
+|4,39,7,0,1715608300,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  11  0  ~/windows_sql_SSMS_Install.yml
+|4,39,11,0,1715608074,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  16  70  ~/windows_sql_SSMS_Install.yml
+|4,39,16,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  20  70  ~/windows_sql_SSMS_Install.yml
+|4,39,20,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  13  70  ~/windows_sql_SSMS_Install.yml
+|4,39,13,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  18  70  ~/windows_sql_SSMS_Install.yml
+|4,39,18,70,1715607669,"~/windows_sql_SSMS_Install.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
+-'  69  58  ~/windows_scm_gateway_installation.yml
+|4,39,69,58,1715606891,"~/windows_scm_gateway_installation.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/windows_sql_SSMS_Install.yml
+	*	1715609656	0
+	"	12	45
+	^	12	46
+	.	12	47
+	+	1	96
+	+	1	0
+	+	1	23
+	+	1	2
+	+	1	4
+	+	1	5
+	+	1	20
+	+	1	0
+	+	1	3
+	+	1	402
+	+	1	163
+	+	15	0
+	+	12	72
+	+	8	42
+	+	2	0
+	+	11	14
+	+	12	47
+
+> ~/windows_scm_gateway_installation.yml
+	*	1715606889	0
+	"	69	58
+	^	69	59
+	.	70	0
+	+	1	76
+	+	1	11
+	+	1	13
+	+	1	0
+	+	1	51
+	+	1	43
+	+	1	3
+	+	72	74
+	+	1	47
+	+	1	11
+	+	1	49
+	+	66	38
+	+	72	43
+	+	1	0
+	+	1	3
+	+	56	68
+	+	5	0
+	+	19	25
+	+	3	11
+	+	6	22
+	+	23	18
+	+	56	55
+	+	5	61
+	+	7	22
+	+	14	28
+	+	17	32
+	+	5	8
+	+	9	26
+	+	11	21
+	+	16	19
+	+	17	56
+	+	18	17
+	+	17	25
+	+	50	0
+	+	26	8
+	+	25	5
+	+	50	0
+	+	44	19
+	+	43	0
+	+	42	23
+	+	46	41
+	+	49	49
+	+	49	27
+	+	49	76
+	+	54	0
+	+	53	18
+	+	51	0
+	+	53	18
+	+	54	0
+	+	57	0
+	+	50	0
+	+	56	22
+	+	39	21
+	+	36	4
+	+	33	18
+	+	44	18
+	+	42	22
+	+	40	27
+	+	56	19
+	+	55	34
+	+	56	191
+	+	56	119
+	+	49	17
+	+	53	36
+	+	66	160
+	+	69	60
+	+	69	74
+	+	68	22
+	+	69	60
+	+	70	0
+	p	56	32
+
+> ~/windows_scm_gateway_uninstallation1.yml
+	*	1715366621	0
+	"	56	159
+	^	56	160
+	.	56	159
+	+	56	159
+
+> ~/windows_scm_gateway_uninstallation.yml
+	*	1715350795	0
+	"	1	0
+	^	1	0
+	.	54	0
+	+	1	458
+	+	1	207
+	+	1	879
+	+	1	184
+	+	1	11
+	+	1	176
+	+	86	50
+	+	86	0
+	+	84	152
+	+	86	50
+	+	87	1
+	+	84	9
+	+	63	7
+	+	54	0
+
+> ~/windows_hostfile_update.yml
+	*	1714578064	0
+	"	8	36
+	^	8	37
+	.	8	36
+	+	8	35
+	+	9	21
+	+	8	36
+
+> ~/IIS_role_Installation_playbook.yml
+	*	1714144707	0
+	"	11	20
+	^	12	21
+	.	12	21
+	+	1	21
+	+	1	44
+	+	1	3
+	+	12	22
+	+	7	24
+	+	11	6
+	+	17	34
+	+	15	2
+	+	16	4
+	+	17	5
+	+	12	20
+	+	8	0
+	+	7	12
+	+	8	21
+	+	9	25
+	+	14	7
+	+	14	1
+	+	12	21
+
+> /etc/ansible/hosts.ini
+	*	1714137628	0
+	"	4	0
+	^	4	0
+	.	3	12
+	+	2	1
+	+	2	54
+	+	5	0
+	+	2	11
+	+	3	12
+
+> ~/Windows_SCM_Gateway_Installation.yml
+	*	1713975085	0
+	"	14	22
+	^	14	23
+	.	14	22
+	+	1	43
+	+	1	24
+	+	1	57
+	+	1	6
+	+	1	55
+	+	1	30
+	+	1	34
+	+	1	20
+	+	1	44
+	+	1	6
+	+	1	5
+	+	1	6
+	+	1	35
+	+	1	294
+	+	15	0
+	+	5	43
+	+	14	22
+
+> ~/windows_SCM_Gateway_Installation.yml
+	*	1713974070	0
+	"	1	0
+	^	1	0
+
+> ~/uninstall_firefox.yml
+	*	1713973778	0
+	"	3	7
+	^	3	8
+	.	3	9
+	+	1	8
+	+	1	136
+	+	8	21
+	+	3	9
+
+> ~/firefox_installation.yml
+	*	1713973765	0
+	"	11	40
+	^	11	41
+	.	12	0
+	+	12	46
+	+	7	590
+	+	8	18
+	+	11	36
+	+	13	0
+	+	11	16
+	+	12	0
+
+> ~/Install_AllscriptsGateway.yml
+	*	1713893210	0
+	"	8	13
+	.	8	12
+	+	8	12
 
 > ~/Windows_SCM_Import_PFX_Certificate.yml
 	*	1713444618	0
@@ -321,14 +553,6 @@
 	+	24	29
 	+	17	29
 	+	11	29
-
-> /etc/ansible/hosts.ini
-	*	1712941433	0
-	"	3	0
-	^	3	0
-	.	3	0
-	+	2	1
-	+	3	0
 
 > ~/Windows_SCM_Import_PFX_Certificate_R3.yml
 	*	1712941141	0
@@ -387,19 +611,6 @@
 	+	1	80
 	+	15	0
 
-> ~/firefox_installation.yml
-	*	1712934582	0
-	"	11	41
-	^	11	42
-	.	12	0
-	+	12	46
-	+	7	590
-	+	8	18
-	+	11	36
-	+	13	0
-	+	11	16
-	+	12	0
-
 > ~/firefox_installation.ymm
 	*	1712934362	0
 	"	1	0
@@ -430,113 +641,3 @@
 	^	2	98
 	.	3	0
 	+	3	0
-
-> ~/uninstall_firefox.yml
-	*	1712928612	0
-	"	3	8
-	^	3	9
-	.	3	9
-	+	1	8
-	+	1	136
-	+	8	21
-	+	3	9
-
-> ~/windows_path_deployment.yml
-	*	1712774514	0
-	"	15	39
-	^	15	40
-	.	16	0
-	+	15	40
-	+	4	17
-	+	8	59
-	+	13	43
-	+	16	0
-
-> ~/test.yml
-	*	1712693558	0
-	"	9	21
-	^	9	22
-	.	10	0
-	+	1	0
-	+	10	0
-
-> ~/add_users_to_group.yml
-	*	1712693400	0
-	"	9	14
-	^	9	15
-	.	9	14
-	+	5	0
-	+	9	14
-
-> ~/Creare_windowsgroup_addMembership.yml
-	*	1712692486	0
-	"	21	21
-	^	21	22
-	.	21	21
-	+	8	27
-	+	6	5
-	+	7	6
-	+	8	6
-	+	8	14
-	+	7	29
-	+	8	8
-	+	5	5
-	+	6	4
-	+	9	55
-	+	14	34
-	+	15	22
-	+	21	21
-
-> ~/IIS_role_Installation_playbook.yml
-	*	1712689466	0
-	"	8	19
-	^	8	20
-	.	8	20
-	+	8	20
-
-> ~/windows_hostfile_update.yml
-	*	1712688285	0
-	"	9	20
-	^	9	21
-	.	9	20
-	+	5	29
-	+	8	49
-	+	9	21
-	+	3	23
-	+	4	6
-	+	8	47
-	+	9	20
-
-> ~/choco_firefox_installation.yml
-	*	1712608739	0
-	"	8	21
-	^	8	22
-	.	9	0
-	+	1	178
-	+	1	201
-	+	1	67
-	+	9	0
-
-> ~/win_security_critical_updates_install
-	*	1712608163	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	11	36
-	+	2	0
-
-> ~/check_win_connection.yml
-	*	1712607688	0
-	"	3	23
-	^	3	24
-	.	3	23
-	+	25	0
-	+	1	111
-	+	1	58
-	+	1	68
-	+	1	112
-	+	1	96
-	+	1	52
-	+	15	0
-	+	6	15
-	+	3	23
